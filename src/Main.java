@@ -32,6 +32,42 @@ public class Main {
 		System.out.println(streetAddress + " is where the person lives");
 		
 		
+		//availablePlaneSeats = availablePlaneSeats - 2;
+		availablePlaneSeats -= 2; 
+		System.out.println(availablePlaneSeats);
+		
+		
+		//costOfGroceries = costOfGroceries + 2.15;
+		costOfGroceries += 2.15;
+		System.out.println(costOfGroceries);
+		
+		
+		middleInitial = 'G';
+		System.out.println(middleInitial);
+		
+		isHotOutside = false;
+		//isHotOutside = !isHotOutside;
+		System.out.println(isHotOutside);
+		
+		
+		String fullName = customerFirstName + " " + middleInitial + " Smith";
+		System.out.println(fullName);
+		
+		
+		System.out.println("Hello there, my name is " + fullName + " and I live at " + streetAddress + ".");
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
